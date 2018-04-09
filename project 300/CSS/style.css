@@ -1,0 +1,423 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+html,body{
+	padding:0;
+	margin:0;
+	background:#fff;
+ font-family: 'Poiret One', cursive;
+ }
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	text-decoration:none;
+}
+body a:hover {
+	text-decoration: none;
+}
+
+body a:focus, a:hover {
+	text-decoration: none;
+}
+header{
+ /*height: 10px;*/
+ margin-top:0 auto;
+ margin-left: 0 auto;
+ margin-right: 0 auto;
+ /*background: rgba(51, 153, 102, 0.1);*/
+}
+.logo{
+     float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px
+}
+.navHeader {
+  /*max-width: 1000px;*/
+  /*mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);*/
+  margin: 0 auto;
+  /*padding: 60px 0;*/
+}
+
+.navHeader ul {
+  text-align: right;
+  /*background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);*/
+  box-shadow: 0 0 25px rgba(0, 255, 191, 0.9), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.navHeader ul li {
+  display: inline-block;
+}
+
+.navHeader ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+.navHeader ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(38, 115, 77,0.9);
+  color: rgba(255, 255, 255, 0.7);
+}
+.navHeader ul li a:active {
+    background: #fff;
+}
+
+.navHeader ul li a.selected,
+.navHeader ul li a.selected:hover {
+     background: rgba(51, 153, 102, 0.9);
+    border-color: #d9d9d9;
+    color: #fff;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+input[type="email"],input[type="text"],input[type=password],
+input[type="button"],input[type="submit"],textarea{
+	 font-family: 'Poiret One', cursive;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	padding:0;
+ font-family: 'Poiret One', cursive;
+	letter-spacing:1px;
+}	
+p{
+	margin:0;
+	padding:0;
+	letter-spacing:1px;
+ font-family: 'Poiret One', cursive;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+/*-- //Reset-Code --*/
+body {
+    background: url(../images/b2.jpeg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+form select option {
+    color: #080808;
+}
+.appointment-w3{
+    width: 30%;
+    margin: 30px auto 30px;
+    background-color:rgba(0, 0, 0, 0.52);
+    padding: 40px 40px;
+}
+h1.header-w3ls {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 11px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.form-control-w3l{display:flex;
+			  display: -webkit-flex;}
+
+
+              
+input#name, input#email, input#orgn, input#timepicker, textarea,#datepicker1  {
+    padding: 12px 15px;
+   	-webkit-flex-basis:100%;
+	flex-basis:100%;
+}
+
+
+input#name, input#email, input#orgn, textarea#message, input#timepicker,#datepicker1 {
+    color: #fff;
+    outline: none;
+    letter-spacing: 1px;
+	font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    border: none;
+    border-right: 1px solid #fff;
+    background: rgba(249, 249, 249, 0.31);
+	 -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+
+textarea#message{
+    height: 134px;
+    padding: 1em;
+	overflow: hidden;
+}
+input#name:hover, input#email:hover, input#orgn:hover, textarea#message:hover, input#timepicker:hover,#datepicker1:hover{border-right: 1px solid #841642;}
+input[type="submit"] {
+    text-transform: uppercase;
+       background: #f1f1f1;
+    color: #000000;
+    padding: .7em 0em;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+	font-family: 'Muli', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 1em;
+    cursor: pointer;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+	input[type="submit"]:hover {
+    color: #fff;
+    background: #26734d;
+}
+.copy{padding:0em 0 1em;}
+.copy p{
+    margin:0em;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+}	
+.copy p a{
+	  color:#33e8ff;
+	  text-decoration:none;
+      }	 
+.copy p a:hover{color:#fff;}
+
+/*--responsive--*/
+@media(max-width:1920px){
+h1.header-w3ls {
+    padding-top: 80px;
+}
+.appointment-w3 {
+    margin: 40px auto 70px;	
+}
+}
+@media(max-width:1680px){
+.appointment-w3 {
+    width: 36%;	
+}
+}
+@media(max-width:1600px){
+	h1.header-w3ls {
+    padding-top: 31px;
+	}
+	.appointment-w3 {
+    width: 30%;
+    margin: 30px auto 30px;
+	}
+}
+@media(max-width:1440px){
+	.appointment-w3 {
+    width: 35%;
+	}
+}
+@media(max-width:1366px){
+.appointment-w3 {
+    width: 40%;
+	padding: 34px;
+}
+h1.header-w3ls {
+    padding-top: 35px;
+}
+textarea {
+    height: 111px;
+}	
+}
+@media(max-width:1280px){
+	.appointment-w3 {
+    width: 45%;
+}
+}
+@media(max-width:1080px){
+	.appointment-w3 {
+    width: 50%;
+}
+h1.header-w3ls {
+    letter-spacing: 8px;
+}
+}
+@media(max-width:1050px){
+	.appointment-w3 {
+    width:53%;
+}	
+
+}
+@media(max-width:1024px){
+	.appointment-w3 {
+    width:56%;
+	    margin: 23px auto 23px;
+}
+h1.header-w3ls {
+    font-size: 35px;
+	padding-top: 30px;
+}
+input[type="submit"] {
+  margin-top: .5em;
+}
+textarea {
+    height: 80px;
+}
+}
+@media(max-width:991px){
+.appointment-w3 {
+    width: 57%;
+}	
+}
+@media(max-width:900px){
+.appointment-w3 {
+    width: 63%;
+}	
+}
+@media(max-width:800px){
+.appointment-w3 {
+    width: 69%;
+}	
+}
+@media(max-width:768px){
+.appointment-w3 {
+    width: 74%;
+}	
+}
+@media(max-width:767px){
+.appointment-w3 {
+    width: 76%;
+}	
+}
+@media(max-width:736px){
+	.appointment-w3 {
+    width: 78%;
+}
+}
+@media(max-width:667px){
+h1.header-w3ls {
+    letter-spacing: 5px;
+}
+.appointment-w3 {
+    width: 78%;
+}	
+}
+@media(max-width:640px){
+h1.header-w3ls {
+    font-size: 33px;
+}	
+.copy p {
+    margin: 0em 1em;
+}
+}
+@media(max-width:600px){
+	.appointment-w3 {
+    padding: 25px;
+}
+h1.header-w3ls {
+    font-size: 30px;
+}
+.copy p {
+    line-height: 22px;
+}	
+}
+@media(max-width:568px){
+h1.header-w3ls {
+    letter-spacing:3px;
+}
+input[type="submit"] {
+    font-size:0.8em;	
+}
+}
+@media(max-width:480px){
+h1.header-w3ls {
+	  letter-spacing:2px;
+    font-size: 28px;
+}	
+}
+@media(max-width:440px){
+	h1.header-w3ls {
+    font-size: 25px;
+}
+}
+@media(max-width:414px){
+h1.header-w3ls {
+    font-size: 24px;
+	    padding-top: 27px;
+}	
+}
+@media(max-width:384px){
+h1.header-w3ls {
+    font-size: 22px;
+    padding-top: 21px;
+}
+.appointment-w3 {
+    padding: 21px;
+	margin: 15px auto 15px;
+}
+textarea {
+    height: 72px;
+}
+input#name, input#email, input#orgn, input#timepicker, #datepicker1 {
+    padding: 9px 11px;
+}
+.copy {
+    padding: 0em 0 0.5em;
+}
+}
+@media(max-width:375px){
+.appointment-w3 {
+    width: 80%;
+}	
+}
+@media(max-width:320px){
+h1.header-w3ls {
+    font-size: 20px;
+   letter-spacing: 1px;
+}	
+textarea {
+    height: 66px;
+}
+input#name, input#email, input#orgn, textarea#message, input#timepicker, #datepicker1 {
+    font-size: 14px;
+}
+.copy p {
+    font-size: 13px;
+}
+}
+/*--//responsive--*/
+
